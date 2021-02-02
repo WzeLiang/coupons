@@ -1,0 +1,39 @@
+<!--pages/home/home.wxml-->
+<view class="home">
+		<view class="list">
+			<view class="item">
+				<view class="item-title">
+					<view class="title-left">
+						饿了么红包天天领
+					</view>
+					<button open-type="share" class="title-right" data-type="ele">
+						<image src="../../static/share.png" mode=""></image>
+					</button>
+				</view>
+				<view class="item-img"   bindtap="toEle">
+					<image src="/static/elm.png" mode=""></image>
+				</view>
+				<view class="btn" bindtap="toEle" style="background:#0c84f1">
+					马上领
+				</view>
+			</view>
+			<view class="item">
+				<view class="item-title">
+					<view class="title-left">
+						美团红包天天领
+					</view>
+					<button open-type="share" class="title-right" data-type="mei">
+						<image src="../../static/share.png" mode=""></image>
+					</button>
+				</view>
+				<view class="item-img"  bindtap="toMei">
+					<image src="/static/mt.png" mode=""></image>
+				</view>
+				<view class="btn" bindtap="toMei" style="background:#fad242">
+					马上领
+				</view>
+			</view>
+		
+		</view>
+	
+	</view>

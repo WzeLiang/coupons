@@ -1,0 +1,116 @@
+page {
+  background: #efefef;
+  padding: 25rpx;
+}
+view{
+  box-sizing: border-box;
+}
+.btnbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.btnbox .btn-item {
+  position: relative;
+  width: 375rpx;
+  height: 375rpx;
+}
+.list {
+  width: 700rpx;
+}
+.list .item {
+  width: 100%;
+  background: #FFFFFF;
+  padding: 10rpx 25rpx 25rpx;
+  margin-bottom: 30rpx;
+  border-radius: 10rpx;
+}
+.list .item .item-title {
+  height: 90rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.list .item .item-title .title-left {
+  font-weight: bold;
+  font-size: 30rpx;
+  position: relative;
+  color: #333333;
+  padding-left: 20rpx;
+}
+.list .item .item-title .title-left::before {
+  position: absolute;
+  height: 80%;
+  width: 8rpx;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  content: " ";
+  background: #d81e06;
+}
+.list .item .item-title .title-right image {
+  width: 40rpx;
+  height: 40rpx;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-name: breathe;
+  -webkit-animation-duration: 500ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+}
+.list .item .item-img image {
+  width: 650rpx;
+  height: 200rpx;
+}
+.list .item .btn {
+  margin-top: 20rpx ;
+  width: 100%;
+  height: 80rpx;
+  border-radius: 10rpx;
+  background: #c02c38;
+  color: #ffffff;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+
+button::after {
+
+  border: none;
+  
+  }
+  
+  button {
+  
+  background-color: transparent;
+  
+  padding-left: 0!important;
+  
+  padding-right: 0!important;
+  margin: 0 !important;
+  line-height:inherit;
+  width: auto!important;
+  }
+  
+  button {
+  
+  border-radius:0;
+  
+  }
+  
